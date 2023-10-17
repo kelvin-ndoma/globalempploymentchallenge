@@ -1,130 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Fruit Shop Landing Page</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header id="header">
-      <div class="header-content-div">
-        <a href="#home-sec">
-          <img
-            src="./assets/logo.png"
-            alt="Company Logo"
-            id="header-img"
-        /></a>
-        <nav id="nav-bar">
-          <a href="#about" class="nav-link">ABOUT</a>
-          <a href="#varieties" class="nav-link">What Roles?</a>
-          <!-- <a href="#our-service" class="nav-link">OUR SERVICE</a> -->
-          <a href="#benefits" class="nav-link">Testimonial</a>
-        </nav>
-      </div>
+        <div class="header-content-div">
+            <a href="#home-sec">
+                <img src="./assets/logo.png" alt="Company Logo" id="header-img" /></a>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#varieties" class="nav-link">What Roles?</a>
+                <!-- <a href="#our-service" class="nav-link">OUR SERVICE</a> -->
+                <a href="#benefits" class="nav-link">Testimonial</a>
+            </nav>
+        </div>
     </header>
     <main>
-      <section id="home-sec" class="flexible home-sec">
-        <div class="eye-grabber-img">
-          <img src="./assets/page.gif" alt="Image of Apples" />
-        </div>
-        <div class="eye-grabber">
-          <h1>One job, at a, Time.</h1>
-          <h2>
-            Join the Global Employment Challenge and help us create 10 Million 
-            jobs by 2035..
-          </h2>
-          <button class="btn" onclick="window.location.href = '#contact';">
-            Join Now
-          </button>
-        </div>
-      </section>
-      <section id="about" class="sec-padding">
-        <h3 class="section-heading">ABOUT US</h3>
-        <div class="sec-content-div flexible">
-          <p>
-            Our research established that real-life, hands-on industry experience is 
-            the most valuable way for graduates to obtain meaningful career-related employment. 
-            We also found that graduates needed training in how to be employable, 
-            how to interact with peers, and how to learn in a commercial environment. 
-            So we created a 10-month training program that could do all of that – and we called it the 
-            <span class="span">Global Employment Challenge.</span>
-          </p>
-          <img src="./assets/image1.jpg" alt="A group of people in an office" />
-        </div>
-      </section>
-      <section id="varieties" class="sec-padding">
-        <h3 class="section-heading">WHICH Roles?</h3>
-        <div class="sec-content-div flexible">
-          <div class="tile">
-            <img src="./assets/software.jpg" alt="photo of amber apples" />
-            <h4>Software Engineering</h4>
-            <p>
-                Software developers with both technical expertise and creative problem-solving skills are in high demand as businesses digitize and innovate.
-            </p>
-          </div>
-          <div class="tile">
-            <img
-              src="./assets/data.jpg"
-              alt="photo of american trel apples"
-            />
-            <h4>Data Analysts</h4>
-            <p>
-                African entry-level data analysts have the technical skills and analytical mindset to collect, process, 
-                and analyze large amounts of data to inform business decisions.
-            </p>
-          </div>
-          <div class="tile">
-            <img src="./assets/markter.jpg" alt="photo of red delicious apple" />
-            <h4>Digital Marketers</h4>
-            <p>
-                African entry-level digital marketers have the technical skills and creative thinking to use the latest digital marketing trends 
-                and technologies to achieve business objectives and connect with customers online.
-            </p>
-          </div>
-          
-        </div>
-      </section>
-      
-      <section id="benefits" class="sec-padding">
-        <h3 class="section-heading">What our talents have to say!</h3>
-        <div class="sec-content-div flexible">
-            <iframe
-              id="video"
-              width="560"
-              title="New Video Title"
-              height="315"
-              src="https://www.youtube.com/embed/SqsEoYQyPz4?si=MRPxd9Oi70s-1H8w"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-          
-      </section>
-      <section class="sec-padding" id="contact">
-        <h3 class="section-heading">CONTACT</h3>
-        <div class="sec-content-div flexible">
-          <h6>To make an order or just to know more contact us :</h6>
-          <form
-            id="form"
-            action="https://www.freecodecamp.com/email-submit"
-            method="POST"
-          >
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Your Email Address"
-              required
-            />
-            <input type="submit" class="btn" id="submit" value="Know More" />
-          </form>
-        </div>
-      </section>
+        <section id="home-sec" class="flexible home-sec">
+            <div class="eye-grabber-img">
+                <img src="./assets/page.gif" alt="Image of Apples" />
+            </div>
+            <div class="eye-grabber">
+                <h1>One job, at a, Time.</h1>
+                <h2>
+                    Join the Global Employment Challenge and help us create 10 Million
+                    jobs by 2035..
+                </h2>
+                <button class="btn" onclick="window.location.href = '#contact';">
+                    Join Now
+                </button>
+            </div>
+        </section>
+        <section id="about" class="sec-padding">
+            <h3 class="section-heading">ABOUT US</h3>
+            <div class="sec-content-div flexible">
+                <p>
+                    Our research established that real-life, hands-on industry experience is
+                    the most valuable way for graduates to obtain meaningful career-related employment.
+                    We also found that graduates needed training in how to be employable,
+                    how to interact with peers, and how to learn in a commercial environment.
+                    So we created a 10-month training program that could do all of that – and we called it the
+                    <span class="span">Global Employment Challenge.</span>
+                </p>
+                <img src="./assets/image1.jpg" alt="A group of people in an office" />
+            </div>
+        </section>
+        <section id="varieties" class="sec-padding">
+            <h3 class="section-heading">WHICH Roles?</h3>
+            <div class="sec-content-div flexible">
+                <div class="tile">
+                    <img src="./assets/software.jpg" alt="photo of amber apples" />
+                    <h4>Software Engineering</h4>
+                    <p>
+                        Software developers with both technical expertise and creative problem-solving skills are in
+                        high demand as businesses digitize and innovate.
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="./assets/data.jpg" alt="photo of american trel apples" />
+                    <h4>Data Analysts</h4>
+                    <p>
+                        African entry-level data analysts have the technical skills and analytical mindset to collect,
+                        process,
+                        and analyze large amounts of data to inform business decisions.
+                    </p>
+                </div>
+                <div class="tile">
+                    <img src="./assets/markter.jpg" alt="photo of red delicious apple" />
+                    <h4>Digital Marketers</h4>
+                    <p>
+                        African entry-level digital marketers have the technical skills and creative thinking to use the
+                        latest digital marketing trends
+                        and technologies to achieve business objectives and connect with customers online.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="benefits" class="sec-padding">
+            <h3 class="section-heading">What our talents have to say!</h3>
+            <div class="sec-content-div flexible">
+                <iframe id="video" width="560" title="New Video Title" height="315"
+                    src="https://www.youtube.com/embed/SqsEoYQyPz4?si=MRPxd9Oi70s-1H8w"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </section>
+        <section class="sec-padding" id="contact">
+            <h3 class="section-heading">CONTACT</h3>
+            <div class="sec-content-div flexible">
+                <h6>To make an order or just to know more contact us :</h6>
+                <div id="mc_embed_shell">
+                    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet"
+                        type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup {
+                            background: #e23d3d;
+                            clear: left;
+                            font: 14px Helvetica, Arial, sans-serif;
+                            width: 900px;
+                        }
+
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form
+                            action="https://gmail.us12.list-manage.com/subscribe/post?u=72b594353ff0c880533ec2018&amp;id=0a858e9378&amp;f_id=00db76e0f0"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate" target="_blank">
+                            <div id="mc_embed_signup_scroll">
+                                <h2>Subscribe</h2>
+                                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
+                                            class="asterisk">*</span></label><input type="email" name="EMAIL"
+                                        class="required email" id="mce-EMAIL" required="" value=""></div>
+                                <div class="mc-field-group"><label for="mce-FNAME">First Name <span
+                                            class="asterisk">*</span></label><input type="text" name="FNAME"
+                                        class="required text" id="mce-FNAME" required="" value=""></div>
+                                <div class="mc-field-group"><label for="mce-LNAME">Last Name <span
+                                            class="asterisk">*</span></label><input type="text" name="LNAME"
+                                        class="required text" id="mce-LNAME" required="" value=""></div>
+                                <div class="mc-field-group"><label for="mce-MMERGE4">Leave your message </label><input
+                                        type="text" name="MMERGE4" class=" text" id="mce-MMERGE4" value=""></div>
+                                <div hidden=""><input type="hidden" name="tags" value="10529220"></div>
+                                <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                                </div>
+                                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                    /* real people should not fill this in and expect good things - do not remove this
+                                    or risk form bot signups */
+                                    <input type="text" name="b_72b594353ff0c880533ec2018_0a858e9378" tabindex="-1"
+                                        value="">
+                                </div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
+                                            value="Subscribe" style="background-color: orange;">
+
+                                        <style>
+                                            #mc-embedded-subscribe:hover {
+                                                background-color: green;
+                                            }
+                                        </style>
+
+
+                                        <p style="margin: 0px auto;"><a href="http://eepurl.com/izUTIc"
+                                                title="Mailchimp - email marketing made easy and fun"><span
+                                                    style="display: inline-block; background-color: #e23d3d; border-radius: 4px;"><img
+                                                        class="refferal_badge"
+                                                        src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                                        alt="Intuit Mailchimp"
+                                                        style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <script type="text/javascript"
+                        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                    <script
+                        type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[4] = 'MMERGE4'; ftypes[4] = 'text'; fnames[3] = 'MMERGE3'; ftypes[3] = 'number'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer>
-      Created by
-      <a href="#">Kelvin Mutua For SMC Studies</a>
+        Created by
+        <a href="#">Kelvin Mutua For SMC Studies</a>
     </footer>
-  </body>
+</body>
+
 </html>
