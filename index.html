@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="./assets/logo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">What Roles?</a>
+          <!-- <a href="#our-service" class="nav-link">OUR SERVICE</a> -->
+          <a href="#benefits" class="nav-link">Testimonial</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="./assets/page.gif" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>One job, at a, Time.</h1>
+          <h2>
+            Join the Global Employment Challenge and help us create 10 Million 
+            jobs by 2035..
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Join Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Our research established that real-life, hands-on industry experience is 
+            the most valuable way for graduates to obtain meaningful career-related employment. 
+            We also found that graduates needed training in how to be employable, 
+            how to interact with peers, and how to learn in a commercial environment. 
+            So we created a 10-month training program that could do all of that – and we called it the 
+            <span class="span">Global Employment Challenge.</span>
+          </p>
+          <img src="./assets/image1.jpg" alt="A group of people in an office" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">WHICH Roles?</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="./assets/software.jpg" alt="photo of amber apples" />
+            <h4>Software Engineering</h4>
+            <p>
+                Software developers with both technical expertise and creative problem-solving skills are in high demand as businesses digitize and innovate.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="./assets/data.jpg"
+              alt="photo of american trel apples"
+            />
+            <h4>Data Analysts</h4>
+            <p>
+                African entry-level data analysts have the technical skills and analytical mindset to collect, process, 
+                and analyze large amounts of data to inform business decisions.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="./assets/markter.jpg" alt="photo of red delicious apple" />
+            <h4>Digital Marketers</h4>
+            <p>
+                African entry-level digital marketers have the technical skills and creative thinking to use the latest digital marketing trends 
+                and technologies to achieve business objectives and connect with customers online.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+      
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">What our talents have to say!</h3>
+        <div class="sec-content-div flexible">
+            <iframe
+              id="video"
+              width="560"
+              title="New Video Title"
+              height="315"
+              src="https://www.youtube.com/embed/SqsEoYQyPz4?si=MRPxd9Oi70s-1H8w"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Kelvin Mutua For SMC Studies</a>
+    </footer>
+  </body>
+</html>
